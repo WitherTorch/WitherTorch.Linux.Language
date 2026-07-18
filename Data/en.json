@@ -1,0 +1,17 @@
+{
+  "indentation": "　",
+  "yes": "Yes",
+  "no": "No",
+  "font": "Noto Sans",
+  "help.version": "Version {0}",
+  "help.version.dev": "Version {0} ({1})",
+  "help.version.other_branch": "{0}_branch_{1} ({2})",
+  "about_box": "About {0} ...",
+  "about_box.version.label": "Version {0}",
+  "about_box.version.label.dev": "Version {0} ({1})",
+  "about_box.version.label.other_branch": "{0}_branch_{1}\n({2})",
+  "about_box.developers.label": "Developers: ",
+  "about_box.testers.label": "Testers: ",
+  "about_box.reference_libraries.label": "Referenced Libraries: ",
+  "about_box.ok_button": "OK"
+}

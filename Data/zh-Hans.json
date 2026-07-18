@@ -1,0 +1,17 @@
+{
+  "indentation": "　",
+  "yes": "是",
+  "no": "否",
+  "font": "Noto Sans SC",
+  "help.version": "版本 {0}",
+  "help.version.dev": "版本 {0} ({1})",
+  "help.version.other_branch": "{0}_branch_{1} ({2})",
+  "about_box": "关于 {0} ...",
+  "about_box.version.label": "版本 {0}",
+  "about_box.version.label.dev": "版本 {0} ({1})",
+  "about_box.version.label.other_branch": "{0}_branch_{1}\n({2})",
+  "about_box.developers.label": "开发组: ",
+  "about_box.testers.label": "测试组: ",
+  "about_box.reference_libraries.label": "引用函式库: ",
+  "about_box.ok_button": "确定"
+}

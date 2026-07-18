@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<LangVersion>latest</LangVersion>
+		<GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+		<Deterministic>True</Deterministic>
+		<SignAssembly>True</SignAssembly>
+		<AssemblyOriginatorKeyFile>keypair.snk</AssemblyOriginatorKeyFile>
+		<Platforms>AnyCPU;x64</Platforms>
+	</PropertyGroup>
+	
+	<PropertyGroup Condition="'$(Configuration)'=='Debug'">
+		<Optimize>False</Optimize>
+		<DebugType>pdbonly</DebugType>
+		<AccelerateBuildsInVisualStudio>true</AccelerateBuildsInVisualStudio>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)'=='Release'">
+		<Optimize>True</Optimize>
+		<DebugType>none</DebugType>
+		<AccelerateBuildsInVisualStudio>true</AccelerateBuildsInVisualStudio>
+	</PropertyGroup>
+		
+	<ItemGroup>
+		<None Remove=".git" />
+		<None Remove=".gitignore" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="Data\en.json" />
+		<EmbeddedResource Include="Data\zh-Hans.json" />
+		<EmbeddedResource Include="Data\zh-Hant.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Include="$(SolutionDir)\GlobalAssemblyInfo.cs" Link="GlobalAssemblyInfo.cs" />
+	</ItemGroup>
+
+</Project>
