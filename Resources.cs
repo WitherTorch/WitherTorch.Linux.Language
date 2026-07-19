@@ -32,7 +32,7 @@ public static class Resources
 {
     public static IEnumerable<ResourcesData> GetLanguageResources()
     {
-        const string ResourceNameHeader = "WitherTorch.Windows.Language.Data.";
+        const string ResourceNameHeader = "WitherTorch.Linux.Language.Data.";
         const string ResourceNameFooter = ".json";
 
         Assembly assembly = Assembly.GetExecutingAssembly();
