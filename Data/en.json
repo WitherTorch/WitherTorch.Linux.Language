@@ -16,7 +16,7 @@
   "help.argument.launch.usage": "(-l | --launch)",
   "help.argument.launch.info": "Launches the server instance stored in the working directory (Mention: Must have `server_info.json` in the directory)",
   "help.argument.gui.usage": "(-g | --gui)",
-  "help.argument.gui.info": "Starts the full-featured graphics user interface (GTK+ 3 is needed, and also sets up the `DISPLAY` or `WAYLAND_DISPLAY` environment variable)",
+  "help.argument.gui.info": "Starts the full-featured graphics user interface (GTK 3 is needed, and also sets up the `DISPLAY` or `WAYLAND_DISPLAY` environment variable)",
   "help.argument.help.usage": "(-h | --help)",
   "help.argument.help.info": "Shows the feature and the format of arguments that the program supported",
   "help.argument.list": "Arguments:",

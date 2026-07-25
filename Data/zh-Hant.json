@@ -16,7 +16,7 @@
   "help.argument.launch.usage": "(-l | --launch)",
   "help.argument.launch.info": "啟動當前工作目錄下的伺服器實體 (注意: 工作目錄下必須有 server_info.json 檔案)",
   "help.argument.gui.usage": "(-g | --gui) <額外參數>",
-  "help.argument.gui.info": "啟動具備完整功能的圖形介面 (需安裝 GTK+ 3，並正確設置 DISPLAY 或 WAYLAND_DISPLAY 環境變數)",
+  "help.argument.gui.info": "啟動具備完整功能的圖形介面 (需安裝 GTK 3，並正確設置 DISPLAY 或 WAYLAND_DISPLAY 環境變數)",
   "help.argument.help.usage": "(-h | --help)",
   "help.argument.help.info": "顯示本程式所支援的功能與參數格式",
   "help.argument.list": "參數列表:",
