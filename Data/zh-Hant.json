@@ -62,5 +62,11 @@
   "about_box.developers.label": "開發組: ",
   "about_box.testers.label": "測試組: ",
   "about_box.reference_libraries.label": "引用程式庫: ",
-  "about_box.ok_button": "確定"
+  "about_box.ok_button": "確定",
+  "server_list.server_version.format": "{0} {1}",
+  "server_list.remove_server": "移除伺服器",
+  "server_list.launch_server": "啟動伺服器",
+  "server_list.setting_server": "設定伺服器",
+  "server_list.open_server_folder": "開啟伺服器資料夾",
+  "server_list.update_server": "更新伺服器"
 }

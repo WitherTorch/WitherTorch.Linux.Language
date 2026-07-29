@@ -62,5 +62,11 @@
   "about_box.developers.label": "开发组: ",
   "about_box.testers.label": "测试组: ",
   "about_box.reference_libraries.label": "引用函式库: ",
-  "about_box.ok_button": "确定"
+  "about_box.ok_button": "确定",
+  "server_list.server_version.format": "{0} {1}",
+  "server_list.remove_server": "移除服务器",
+  "server_list.launch_server": "启动服务器",
+  "server_list.setting_server": "设置服务器",
+  "server_list.open_server_folder": "开启服务器文件夹",
+  "server_list.update_server": "更新服务器"
 }

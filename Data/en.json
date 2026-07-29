@@ -62,5 +62,11 @@
   "about_box.developers.label": "Developers: ",
   "about_box.testers.label": "Testers: ",
   "about_box.reference_libraries.label": "Referenced Libraries: ",
-  "about_box.ok_button": "OK"
+  "about_box.ok_button": "OK",
+  "server_list.server_version.format": "{0} {1}",
+  "server_list.remove_server": "Remove Server",
+  "server_list.launch_server": "Launch Server",
+  "server_list.setting_server": "Server Settings",
+  "server_list.open_server_folder": "Open Folder",
+  "server_list.update_server": "Update Server"
 }
